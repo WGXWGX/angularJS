@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+
+</head>
+<script>
+		//alert(123);
+</script>
+<body>
+	<div ng-app="myModule">
+		<div>
+			<div ng-controller="firstController">
+				<input type="text" ng-model="id">
+				{{ id }} {{id+2}} {{aa()}}
+			</div>
+		</div>
+
+		<div>
+			<div ng-controller="firstController">
+				<input type="text" ng-model="id">
+				{{id}} {{a+b}}
+			</div>
+		</div>
+		
+	</div>
+	
+	
+
+
+
+	
+	<script src="../angular-1.2.18/angular.js"></script>
+	<script src="./app/index.js"></script>
+</body>
+</html>
