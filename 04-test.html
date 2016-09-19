@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-app="myModule">
+		<div ng-controller="firstController">
+			<input type="text" value="456">
+			<input type="text" ng-model="name" value="123">
+			{{name}}
+		</div>
+	</div>
+
+	<!-- model的值 绑定view下变量  model影响view（单向绑定）
+	view影响model
+	javascript作用域先执行 value="123" -input
+	angularjs作用域ng-model -->
+
+	<script src="../angular-1.2.18/angular.js"></script>
+	<script src="./app/04-test.js"></script>
+</body>
+</html>
