@@ -1,0 +1,10 @@
+从数组中找出负数的数的最简单方法
+arr.filter
+var arr=[1,-2,4-9,8,10];  //for  foreach  for in 
+		var arr1=arr.filter(function(n){
+			if(n<0){
+				return true;
+			}else{
+				return false;
+			}
+		});
