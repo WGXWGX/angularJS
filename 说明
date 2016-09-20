@@ -1,0 +1,9 @@
+AngularJS的双向数据绑定(bi-directional data binding)
+当加载该页时，标记ng-app告诉AngularJS处理整个HTML页并引导应用：
+使用双大括号标记{{}}的内容是问候语中绑定的表达式
+AngularJS的双向数据绑定
+文本输入指令<input ng-model="yourname" />绑定到一个叫yourname的模型变量。
+双大括号标记将yourname模型变量添加到问候语文本。
+ng-app指令：
+<html lang="en" ng-app>
+ng-app指令标记了AngularJS脚本的作用域，在<html>中添加ng-app属性即说明整个<html>都是AngularJS脚本作用域。开发者也可以在局部使用ng-app指令，如<div ng-app>，则AngularJS脚本仅在该<div>中运行。
